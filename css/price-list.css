@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-image: url('../img//apple-4833764_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.position-main-price{
+    position: relative;
+    left: 50%;
+    height: 400px;
+    transform: translateX(-50%);
+}
+.main-price-text p{
+    display: inline-block;
+    padding: 0 70px 0 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #000;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+p:hover{
+    background-color: #333;
+}
+p:hover + span{
+    background-color: #333;
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+    .main-price-text p{
+        padding: 0 150px 0 10px;
+    }
+}
+@media (min-width: 1500px) and (max-width: 1920px){
+    .main-price-text p{
+        padding: 0 200px 0 10px;
+    }
+}
+.main-price-text{
+    padding: 0px;
+    line-height: 70px;
+    font-size: 1.5rem;
+}
+.money{
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 4%;
+    text-align: right;
+    transition: background-color .5s;
+}
+.block-main-price{
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.main-price{
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    font-size: 1.6rem;
+}
+
+/* Navigation */
+nav{
+    /* font-size: 0; likwidacja bledu html */
+    height: 50px;
+    background-color: rgb(54,54,54);
+    text-align: center;
+    line-height: 50px;
+}
+nav li{
+    display: inline-block;
+    /* padding: 0 50px; */
+    /* background-color: #fff; */
+}
+nav li a{
+    padding: 0 50px; /*tworzenie klikalnego bloku*/
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+    /* font-size: 16px; likwidacja bledu html czyli przerwy*/
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+nav li a:hover{
+    color: rgb(0, 134, 243);
+}
+
+/* Header */
+.header-img{
+    position: relative;
+    height: 260px;
+    background-image: url('../img/chrome-hill-4724725_1920.jpg');
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+}
+.header-bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+header h1{
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+/* Main */
+main{
+    width: 60%;
+    margin: 50px auto;
+}
+.about-us-heading{
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+section{
+    margin: 40px 0;
+}
+.position{
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.top{
+    background-image: url('../img/soap-4829708_1920.jpg');
+}
+.middle{
+    background-image: url('../img/river-landscape-4885219_1920.jpg');
+}
+.bottom{
+    background-image: url('../img/alpine-4892708_1920.jpg');
+}
+.about-us-text{
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.about-us-text h3{
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.about-us-bg{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.4);
+    height: 50%;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+}
+
+/* Footer */
+footer{
+    height: 80px;
+    color: rgb(212, 212, 212);
+    background-color: rgb(54,54,54);
+    line-height: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+.foot-ico{
+    margin-left: 50px;
+}
+.foot-ico i{
+    padding: 0 5px;
+    color: rgb(212, 212, 212);
+    font-size: 24px;
+    transition: color .3s;
+}
+.foot-ico i:hover{
+    color: rgb(0, 134, 243);
+}

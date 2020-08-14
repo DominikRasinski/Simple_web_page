@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(121,58,180);
+    background: linear-gradient(45deg, rgba(121,58,180,0.9472163865546218) 0%, rgba(29,146,253,1) 50%, rgba(69,229,252,1) 100%);
+    background-repeat: no-repeat;
+}
+h2{
+    position: relative;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.main-contact{
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+}
+.contact-in-main{
+    font-size: 40px;
+}
+.contact-a-main:visited{
+    color: rgba(69,229,252,1);
+}
+footer{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}

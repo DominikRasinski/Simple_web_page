@@ -1,0 +1,95 @@
+body{
+    background-image: url('../img/glasses-4892520_1920.jpg');
+ }
+ 
+h2{
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    width: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    border-radius: 12px;
+}
+
+.position-services{
+    position: relative;
+    display: inline-block;
+    top: 4vh;
+    left: 24%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+    height: 150px;
+    width: 300px;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.position-services:nth-child(odd){
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+}
+.services-main-text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px black;
+}
+.services-main-bg{
+    background-color: rgba(0,0,0,.5)
+}
+
+.services-main-top{
+    background: rgba(131,58,180,.4);
+    background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.services-main-next-top{
+    background: rgba(131,58,180,.4);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.services-main-middle{
+    background: rgba(2,0,36,.4);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,40,112,1) 39%, rgba(0,212,255,1) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.services-main-next-middle{
+    background: rgba(60,58,180,.4);
+    background: linear-gradient(90deg, rgba(60,58,180,1) 0%, rgba(29,169,253,1) 50%, rgba(69,229,252,1) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.services-main-bottom{
+    background: rgb(34,137,195);
+    background: linear-gradient(262deg, rgba(34,137,195,1) 0%, rgba(126,253,45,0.9136029411764706) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+
+}
+.services-main-next-bottom{
+    background: rgba(34,137,195,.4);
+    background: linear-gradient(27deg, rgba(34,137,195,1) 0%, rgba(147,253,45,0.9136029411764706) 100%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.services-main-top:hover, .services-main-next-top:hover, .services-main-middle:hover, .services-main-next-middle:hover, .services-main-bottom:hover, .services-main-next-bottom:hover{
+    transform: scale(1.5);
+    z-index: 1;    
+}
+footer{
+    position: relative;
+    top: 9vh;
+    /* left: 50%; */
+    width: 100%;
+}
